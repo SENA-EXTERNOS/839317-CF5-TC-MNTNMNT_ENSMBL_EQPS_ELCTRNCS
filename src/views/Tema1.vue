@@ -18,20 +18,20 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.1 Categorización
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .tarjeta.tarjeta-icono-lado.derecha.p-5(style='background-color: #e5e7f2').mb-5
-          img(src='@/assets/curso/temas/tema1/2.svg', alt='').d-lg-block.d-none
+      .col-lg-9
+        .tarjeta.tarjeta-icono-lado.derecha.p-3(style='background-color: #e5e7f2').mb-5
+          img(src='@/assets/curso/temas/tema1/2.svg', alt='' ).d-lg-block.d-none
           p Antes de hacer una aproximación a la categorización de los AEE, es importante recordar que la sigla se refiere a todos aquellos aparatos eléctricos y electrónicos que, para funcionar de forma óptima, requieren estar conectados a una corriente eléctrica. En Colombia se categorizan los aparatos eléctricos y electrónicos (AEE), según la comercialización, el uso y en las labores de tipo doméstico que pueden facilitar.
     p.mb-5(data-aos='fade-right')
     .bg-cta.mn.mb-2
-      .tarjeta.p-4.p-md-5.mb-5(style='background-color: #e7f3fd')
+      .tarjeta.p-4.p-md-5.mb-5.bg-cta2
         .row.justify-content-around.align-items-center
-          .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+          .col-8.col-sm-6.col-md-4.mb-4.mb-md-0.p-5
             img(src="@/assets/curso/temas/tema1/3.svg")
           .col-md.col-lg-6
             .titulo-segundo.color-acento-contenido(data-aos='fade-right')
-              h3 Infografía Categorización
-            p.mb-4 Categorización de los aparatos eléctricos y electrónicos en Colombia
+              h2 Infografía Categorización
+            p.mb-3 Categorización de los aparatos eléctricos y electrónicos en Colombia
             a.boton.color-acento-botones(:href="obtenerLink('downloads/anexo.pdf')" target="_blank" type="application/pdf")
               span Descargar 
               i.fas.fa-file-download
@@ -136,9 +136,9 @@
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.3. Material crítico 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .tarjeta.tarjeta-icono-lado.izquierda.p-5(style='background-color: #e5e7f2').mb-5
-          img(src='@/assets/curso/temas/tema1/12.svg', alt='').d-lg-block.d-none
+      .col-lg-9
+        .tarjeta.tarjeta-icono-lado.izquierda.p-3(style='background-color: #e5e7f2').mb-5
+          img(src='@/assets/curso/temas/tema1/12.svg', alt='' style="width: 300px; top: 30px").d-lg-block.d-none
           p Hace referencia a algunos metales preciosos y mezcla de los mismos que se emplean para la fabricación de estos aparatos; es de acotar que la consecución de los mismos se efectúa mediante explotación minera y se le debe aplicar muchos químicos que afectan directamente el medio ambiente. 
             br
             br
@@ -197,7 +197,7 @@
     Separador 
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.5  Salud y medio ambiente
-    .bg-cta.p-5
+    .bg-cta3.p-5
       .row.justify-content-center.mb-5
         .col-lg-6(data-aos="fade-right")
           p Existen tres factores que preocupan a la comunidad mundial por las sustancias que pueden llegar a liberar y ellas son:  el cadmio, el mercurio y el plomo que pueden llegar a producir emisiones tales como: los lixiviados de disposiciones finales, materiales particulados por los desarmes de los aparatos (tanto finos como grandes), cenizas de quemas de componentes y del aire, liberación de humo de las soldaduras y por quema de los aparatos, aguas de desecho por montaje y desmontaje de los equipos y otras actividades propias con lixiviación. (Ministerio de Ambiente y Desarrollo Sostenible, 2017). 
@@ -225,7 +225,7 @@
           p Es una técnica enfocada en la transformación y aprovechamiento de los residuos o del calor emitido por los componentes de los aparatos eléctricos y electrónicos. Este método se puede hacer de manera mecánica, manual o combinada. Debe separarse los residuos contaminantes y se obtienen tres grupos principales de materiales: metales, vidrios y plásticos, los cuales se restauran por medio de tres procesos básicos.
     p.mb-5(data-aos='fade-right') La fundición, refinación térmica y química e incineración son los tres procesos básicos a través de los cuales se realiza el proceso de reciclaje de los equipos eléctricos y electrónicos: Aquí los tres grupos: 
     .row.justify-content-center.mb-5
-      .col-lg-9(data-aos="fade-right")
+      .col-lg-10(data-aos="fade-right")
         TabsA.color-secundario.mb-5
           .tarjeta.p-4(titulo="Fundición " style='background-color: #e5e7f2')
             p Se refiere al proceso de derretir y licuar metales o cuerpos sólidos y el reciclaje común de metales ferrosos, es decir que contienen hierro.
@@ -233,7 +233,7 @@
             p Indica el método de la recuperación de metales nobles, no ferrosos, contenidos en las tarjetas de circuito impreso y en otros residuos eléctricos y electrónicos, a través de técnicas térmicas o químicas.
           .tarjeta.p-4(titulo="Incineración" style='background-color: #e5e7f2')
             p Los residuos sin valor, no aprovechables o con contenidos peligrosos son calcinados bajo altos estándares de calidad que permiten la recuperación del valor del aparato, esta puede ser en forma de energía eléctrica y así evitar la contaminación al ambiente por las emisiones atmosféricas, a través de sistemas de control y descontaminación de material particulado. (Ministerio de Ambiente y Desarrollo Sostenible, 2010).
-      .col-lg-3.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/18.png', alt='')
+      .col-lg-2.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/18.png', alt='')
     Separador
     #t_1_8.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.8  Disposición final 
@@ -277,7 +277,7 @@
     Separador
     #t_1_10.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.10  Etiquetado
-    .bg-cta.p-5.mb-5
+    .bg-cta3.p-5.mb-5
       .row.justify-content-center.mb-5
         .col-lg-6(data-aos="fade-right")
           p El logo que se representa en la figura 6, debe de aparecer en todos los residuos de aparatos eléctricos y electrónicos, esta indica que debe ser clasificado antes de darse una disposición final, no se debe desechar directamente. 
@@ -381,4 +381,15 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.bg-cta2
+  background-image: url('../assets/curso/temas/tema1/bg-cta2.svg')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+.bg-cta3
+  background-image: url('../assets/curso/temas/tema1/bg-adornos.svg')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+</style>
