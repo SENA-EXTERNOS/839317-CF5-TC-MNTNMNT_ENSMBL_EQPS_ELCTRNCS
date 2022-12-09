@@ -251,7 +251,7 @@ export default {
       tema:
         'Hoy no se habla de basura, sino de residuos que son insumos para productos: Minambiente.      ',
       referencia:
-        'Ministerio de Ambiente y Desarrollo Sostenible, (2022), Hoy no se habla de basura, sino de residuos que son insumos para productos: Minambiente. ',
+        'Ministerio de Ambiente y Desarrollo Sostenible, (2022), <em> Hoy no se habla de basura, sino de residuos que son insumos para productos: Minambiente.</em> ',
       tipo: 'Página Web.',
       link:
         'https://www.minambiente.gov.co/asuntos-ambientales-sectorial-y-urbana/hoy-no-se-habla-de-basura-sino-de-residuos-que-son-insumos-para-productos-minambiente/',
@@ -260,21 +260,21 @@ export default {
       tema:
         'Calculadora de generación de residuos de aparatos eléctricos y electrónicos – RAEE',
       referencia:
-        'Ministerio de Ambiente y Desarrollo Sostenible, (2022),Calculadora de generación de residuos de aparatos eléctricos y electrónicos – RAEE. Minambiente. ',
+        'Ministerio de Ambiente y Desarrollo Sostenible, (2022),<em>Calculadora de generación de residuos de aparatos eléctricos y electrónicos – RAEE. Minambiente.</em> ',
       tipo: 'Página Web.',
       link: 'https://calculadoraraee.minambiente.gov.co/#/',
     },
     {
       tema: 'Mercurio, cambio responsable.',
       referencia:
-        'Ministerio de Ambiente y Desarrollo Sostenible - Colombia, (2021), Mercurio, cambio responsable. [Vídeo]. Youtube.',
+        'Ministerio de Ambiente y Desarrollo Sostenible - Colombia, (2021), <em> Mercurio, cambio responsable.</em> [Vídeo]. Youtube.',
       tipo: 'Video.',
       link: 'https://youtu.be/LfffzddWlhA',
     },
     {
       tema: 'Mesa Nacional de Aprovechamiento de Masa Residual.',
       referencia:
-        'Ministerio de Ambiente y Desarrollo Sostenible - Colombia, (2021), Mesa Nacional de Aprovechamiento de Masa Residual. [Vídeo]. YouTube. ',
+        'Ministerio de Ambiente y Desarrollo Sostenible - Colombia, (2021), <em> Mesa Nacional de Aprovechamiento de Masa Residual.</em> [Vídeo]. YouTube. ',
       tipo: 'Video.',
       link: 'https://www.youtube.com/watch?v=PwJOl_14Ruw',
     },
@@ -332,7 +332,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Baldé, C. W. (2015), The Global E-waste Monitor.Balde, C. P., Kuehr, F., & Huisman, J. (2015). The Global E-waste Monitor 2014: Quantities, Flows and Resources. United Nations Univ., Inst. for the advanced study on sustainability. ',
+        'Baldé, C. W. (2015), <em> The Global E-waste Monitor.</em> Balde, C. P., Kuehr, F., & Huisman, J. (2015). <em> The Global E-waste Monitor 2014: Quantities, Flows and Resources.</em> United Nations Univ., Inst. for the advanced study on sustainability. ',
       link:
         'https://i.unu.edu/media/unu.edu/news/52624/UNU-1stGlobal-E-Waste-Monitor-2014-small.pdf',
     },
@@ -354,12 +354,12 @@ export default {
     },
     {
       referencia:
-        'Encyclopædia Britannica ImageQuest, (2022), Millones de imágenes libres de derechos de autor recopiladas en un único sitio confiable.',
+        'Encyclopædia Britannica ImageQuest, (2022), <em> Millones de imágenes libres de derechos de autor recopiladas en un único sitio confiable.</em>',
       link: 'https://quest-eb-com.bdigital.sena.edu.co/ ',
     },
     {
       referencia:
-        'Greenpeace, (2011), Basura informática: la otra cara de la tecnología. Obtenido de Buenos Aires: Greenpeace Argentina.',
+        'Greenpeace, (2011), <em> Basura informática: la otra cara de la tecnología.</em> Obtenido de Buenos Aires: Greenpeace Argentina.',
       link: 'http://www.greenpeace.org/argentina/Global/argentina/report/',
     },
     {
@@ -369,27 +369,74 @@ export default {
     },
     {
       referencia:
-        'Ministerio de Ambiente y Desarrollo Sostenible, (2010), Lineamientos Técnicos para el Manejo de Residuos de Aparatos Eléctricos y Electrónicos.',
+        'Ministerio de Ambiente y Desarrollo Sostenible, (2010), <em> Lineamientos Técnicos para el Manejo de Residuos de Aparatos Eléctricos y Electrónicos.</em>',
       link:
         'https://www.minambiente.gov.co/wp-content/uploads/2021/10/Guia_RAEE_MADS_2011-reducida.pdf ',
     },
     {
       referencia:
-        'Ministerio de Ambiente  y Desarrollo Sostenible, (2022), Guías Ambientales de Almacenamiento y Transporte por Carretera de Sustancias Químicas Peligrosas y Residuos Peligrosas. ',
+        'Ministerio de Ambiente  y Desarrollo Sostenible, (2022), <em> Guías Ambientales de Almacenamiento y Transporte por Carretera de Sustancias Químicas Peligrosas y Residuos Peligrosas.</em>   ',
       link:
         'https://www.minambiente.gov.co/documento-entidad/guias-ambientales-de-almacenamiento-y-transporte-por-carretera-de-sustancias-quimicas-peligrosas-y-residuos-peligrosos/',
     },
     {
       referencia:
-        'Ministerio de Ambiente y Desarrollo Sostenible, (2017), Política Nacional. Gestión Integral de Residuos de Aparato Eléctricos y Electrónicos – RAEE.  Ministerio de Ambiente y Desarrollo Sostenible.',
+        'Ministerio de Ambiente y Desarrollo Sostenible, (2017), <em> Política Nacional. Gestión Integral de Residuos de Aparato Eléctricos y Electrónicos – RAEE</em>.  Ministerio de Ambiente y Desarrollo Sostenible.',
       link:
         'https://www.minambiente.gov.co/wp-content/uploads/2021/10/Politica_RAEE.pdf',
     },
     {
       referencia:
-        'Ministerio de Ambiente y Desarrollo Sostenible, (2021), Manual: buenas prácticas para el manejo de los residuos de aparatos eléctricos y electrónicos (RAEE). ',
+        'Ministerio de Ambiente y Desarrollo Sostenible, (2021), <em> Manual: buenas prácticas para el manejo de los residuos de aparatos eléctricos y electrónicos (RAEE).</em> ',
       link:
         'https://www.minvivienda.gov.co/sites/default/files/procesos/grf-m-03-manual-de-buenas-practicas-para-el-manejo-de-los-residuos-de-aparatos-electricos-y-electronicos-raee-1.0-.pdf',
+    },
+    {
+      referencia:
+        'Resolución 1297 de 2010. [Ministerio de Ambiente y Desarrollo Sostenible]. Por la cual se establecen los Sistemas de Recolección Selectiva y Gestión Ambiental de Residuos de Pilas y/o Acumuladores y se adoptan otras disposiciones. Julio 8 de 2010. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Resolución 1511 de 2010. [Ministerio de Ambiente y Desarrollo Sostenible]. Por la cual se establecen los Sistemas de Recolección Selectiva y Gestión Ambiental de Residuos de Bombillas y se adoptan otras disposiciones. Agosto 5 de 2010. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Resolución 1512 de 2015. [Ministerio de Ambiente  y Desarrollo Sostenible]. Por la cual se establecen los Sistemas de Recolección Selectiva y Gestión Ambiental de Residuos de Computadores y/o Periféricos y se adoptan otras disposiciones. Agosto 5 de 2015.',
+      link: '',
+    },
+    {
+      referencia:
+        'Resolución 0076 [Ministerio de Ambiente y Desarrollo Sostenible]. Por medio del cual se adoptan los términos de referencia para la elaboración del Estudio de Impacto Ambiental. EIA. 16 de enero del 2019. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Resolución 480 de 2019 [Ministerio de Ambiente y Desarrollo Sostenible]. Por medio del cual se adoptan los términos de referencia para la elaboración del Estudio de Impacto Ambiental. EIA. 16 de enero del 2019.',
+      link: '',
+    },
+    {
+      referencia:
+        'Secretaría del Convenio de Basilea, (2015), <em> Directrices técnicas sobre los movimientos transfronterizos de desechos eléctricos y electrónicos y de equipo eléctrico y electrónico usado, en particular respecto de la distinción entre desechos y materiales que no son desechos.</em>',
+      link:
+        'http://www.basel.int/TheConvention/ConferenceoftheParties/Meetings/Meeting-Documents/tabid/4249/ctl/Download/mid/13036/Default.aspx?id=323&ObjID=11755',
+    },
+    {
+      referencia:
+        'Parlamento Europeo y el Consejo de la Unión Europea. (2008). <em> Directiva 2008/98/CE del Parlamento Europeo y del Consejo de 19 de noviembre del 2008.</em> Agencia Estatal Boletín Oficial del Estado de España',
+      link: 'https://www.boe.es/buscar/doc.php?id=DOUE-L-2008-82319',
+    },
+    {
+      referencia:
+        'Parlamento Europeo y el Consejo de la Unión Europea. (2012). Residuos de aparatos eléctricos y electrónicos, Estrasburgo. ',
+      link:
+        'http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2012:197:0038:0071:ES:PDF',
+    },
+    {
+      referencia: 'Your_Europe. (2022). <em> Etiquetado RAEE.</em> ',
+      link:
+        'https://europa.eu/youreurope/business/product-requirements/labels-markings/weee-label/index_es.htm#:~:text=para%20las%20empresas-,%C2%BFQu%C3%A9%20es%20la%20etiqueta%20RAEE%3F,electr%C3%B3nicos%20comercializados%20en%20la%20UE.',
     },
   ],
   creditos: {

@@ -9,7 +9,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .tarjeta.tarjeta-icono-lado.izquierda.p-5(style='background-color: #e5e7f2').mb-5
-          img(src='@/assets/curso/temas/tema5/1.svg', alt='').d-lg-block.d-none
+          img(src='@/assets/curso/temas/tema5/1.svg', alt='' style="width: 280px; top: 30px; left: 30px ").d-lg-block.d-none
           p Los riesgos asociados a la manipulación de los residuos de aparatos eléctricos y electrónicos (RAEE), se presentan dependiendo del procedimiento que se esté aplicando, entre los más comunes son de tipo físico directo, tales como cortes, golpes, punzadas, ruidos, material particulado, explosiones y derrames de sustancias. Para esto se deben utilizar siempre los EPP asignados para cada tarea.
     Separador 
     #t_5_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -31,78 +31,78 @@
     Separador
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 5.2  Protocolos 
-    .bg-cta-2.mn.mb-5
-      .row.justify-content-center.mb-5
+    .bg-cta-2.mn.mb-0
+      .row.justify-content-center
         .col-lg-2.col-6(data-aos="fade-right"): img(src='@/assets/curso/temas/tema5/3.svg', alt='')
         .col-lg-10
           p Se pueden presentar muchos tipos de accidentes, por ello es necesario tener siempre un plan de emergencias y elementos de primeros auxilios, los cuales deben permanecer en buen estado y situado en un lugar visible. No se recomienda hacer préstamo del botiquín, dado que nunca se sabe cuándo se presentará una urgencia. A continuación, se enuncian los tipos de sucesos más comunes:
             br
             br
             | En este ítem se describen de manera general los casos de emergencia frecuentes. Estudie con atención.
-    p.mb-5(data-aos='fade-right') Los elementos de protección personal son esenciales para minimizar los riesgos, así mismo utilizar los utensilios destinados para la emergencia y de este modo poder cuantificar la gravedad del hecho.
-    .row.justify-content-center.mb-5
-      .col-lg-4.col-6(data-aos="fade-right"): img(src='@/assets/curso/temas/tema5/4.svg', alt='')
-      .col-lg-8(data-aos="fade-left")
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta fondo-acordion")
-          div(titulo="Cuando se detecta la emergencia ")
-            ul.lista-ul--color
-              li
-                i.fas.fa-square.fa-xs(style='color: #3bc192')
-                | Rompimiento de tubos fluorescentes.
+      p.mb-5(data-aos='fade-right' ) Los elementos de protección personal son esenciales para minimizar los riesgos, así mismo utilizar los utensilios destinados para la emergencia y de este modo poder cuantificar la gravedad del hecho.
+      .row.justify-content-center.mb-5
+        .col-lg-4.col-6(data-aos="fade-right"): img(src='@/assets/curso/temas/tema5/4.svg', alt='')
+        .col-lg-8(data-aos="fade-left")
+          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta fondo-acordion")
+            div(titulo="Cuando se detecta la emergencia ")
+              ul.lista-ul--color
+                li
+                  i.fas.fa-square.fa-xs(style='color: #3bc192')
+                  | Rompimiento de tubos fluorescentes.
 
-              li
-                i.fas.fa-square.fa-xs(style='color: #3bc192')
-                | Activar el plan de emergencias, avisando a los responsables del proceso.
-          div(titulo="Conato de incendio")
-            ul.lista-ul--color
-              li
-                i.fas.fa-square.fa-xs(style='color: #3bc192')
-                | Activar el plan de emergencias, informar a las personas que están a cargo. 
-              li
-                i.fas.fa-square.fa-xs(style='color: #3bc192')
-                | Visualizar el extintor.
-          div(titulo="Cuando se presenta la emergencia")
-            ul.lista-ul--color
-              li
-                i.fas.fa-square.fa-xs(style='color: #3bc192')
-                | Si hay un rompimiento de tubos fluorescentes: ventilar el área afectada para prevenir inhalar vapores tóxicos.
-          div(titulo="En caso que se presente un conato de incendio")
-            p Se deben seguir los siguientes pasos:
-            ul.lista-ul--color
-              li.mb-0
-                i.fas.fa-square.fa-xs(style='color: #3bc192')
-                | No entrar en pánico y mantener la calma.
-              li.mb-0
-                i.fas.fa-square.fa-xs(style='color: #3bc192')
-                | Usar el extintor, siguiendo el protocolo establecido.
+                li
+                  i.fas.fa-square.fa-xs(style='color: #3bc192')
+                  | Activar el plan de emergencias, avisando a los responsables del proceso.
+            div(titulo="Conato de incendio")
+              ul.lista-ul--color
+                li
+                  i.fas.fa-square.fa-xs(style='color: #3bc192')
+                  | Activar el plan de emergencias, informar a las personas que están a cargo. 
+                li
+                  i.fas.fa-square.fa-xs(style='color: #3bc192')
+                  | Visualizar el extintor.
+            div(titulo="Cuando se presenta la emergencia")
+              ul.lista-ul--color
+                li
+                  i.fas.fa-square.fa-xs(style='color: #3bc192')
+                  | Si hay un rompimiento de tubos fluorescentes: ventilar el área afectada para prevenir inhalar vapores tóxicos.
+            div(titulo="En caso que se presente un conato de incendio")
+              p Se deben seguir los siguientes pasos:
+              ul.lista-ul--color
+                li.mb-0
+                  i.fas.fa-square.fa-xs(style='color: #3bc192')
+                  | No entrar en pánico y mantener la calma.
+                li.mb-0
+                  i.fas.fa-square.fa-xs(style='color: #3bc192')
+                  | Usar el extintor, siguiendo el protocolo establecido.
 
-              li.mb-0
-                i.fas.fa-square.fa-xs(style='color: #3bc192')
-                | Tomar el extintor por la palanca correcta, desasegurar el pasador de seguridad halándolo o hándole vuelta, sostenerlo de forma vertical y acercarse a la base del fuego hasta donde le  permita sin quemarse, realizar la descarga dirigida hacía la fuente en forma de abanico presionando la válvula.
+                li.mb-0
+                  i.fas.fa-square.fa-xs(style='color: #3bc192')
+                  | Tomar el extintor por la palanca correcta, desasegurar el pasador de seguridad halándolo o hándole vuelta, sostenerlo de forma vertical y acercarse a la base del fuego hasta donde le  permita sin quemarse, realizar la descarga dirigida hacía la fuente en forma de abanico presionando la válvula.
 
-              li.mb-0
-                i.fas.fa-square.fa-xs(style='color: #3bc192')
-                | De ser posible, retirar envases con elementos inflamables.
-              li.mb-0
-                i.fas.fa-square.fa-xs(style='color: #3bc192')
-                | Activar el plan de emergencias, dando aviso oportuno.
-              li.mb-0
-                i.fas.fa-square.fa-xs(style='color: #3bc192')
-                | Verificar la desaparición del fuego, si no fue controlada la situación llamar a Bomberos y desalojar el lugar, cubriendo nariz y boca con un pañuelo húmedo, evitando la inhalación de los gases, si hay presencia de humo se debe salir agachado.
-          div(titulo="Cuando se pasa la emergencia")
-            ul.lista-ul--color
-              li
-                i.fas.fa-square.fa-xs(style='color: #3bc192')
-                | Si hay un rompimiento de tubos fluorescentes: después de los pasos anteriores, se deben recoger los residuos generados con los utensilios correctos, puede ser en una bolsa o cartón, ubicada en la zona donde están los tubos fluorescentes y entregarlos a los encargados de la gestión. 
-          div(titulo="En caso de presentarse un conato de incendio:")
-            ul.lista-ul--color
-              li
-                i.fas.fa-square.fa-xs(style='color: #3bc192')
-                | Se debe terminar la descarga de los extintores y disponerlos para inmediatamente cargarlos y que queden disponibles para emergencias futuras.
+                li.mb-0
+                  i.fas.fa-square.fa-xs(style='color: #3bc192')
+                  | De ser posible, retirar envases con elementos inflamables.
+                li.mb-0
+                  i.fas.fa-square.fa-xs(style='color: #3bc192')
+                  | Activar el plan de emergencias, dando aviso oportuno.
+                li.mb-0
+                  i.fas.fa-square.fa-xs(style='color: #3bc192')
+                  | Verificar la desaparición del fuego, si no fue controlada la situación llamar a Bomberos y desalojar el lugar, cubriendo nariz y boca con un pañuelo húmedo, evitando la inhalación de los gases, si hay presencia de humo se debe salir agachado.
+            div(titulo="Cuando se pasa la emergencia")
+              ul.lista-ul--color
+                li
+                  i.fas.fa-square.fa-xs(style='color: #3bc192')
+                  | Si hay un rompimiento de tubos fluorescentes: después de los pasos anteriores, se deben recoger los residuos generados con los utensilios correctos, puede ser en una bolsa o cartón, ubicada en la zona donde están los tubos fluorescentes y entregarlos a los encargados de la gestión. 
+            div(titulo="En caso de presentarse un conato de incendio:")
+              ul.lista-ul--color
+                li
+                  i.fas.fa-square.fa-xs(style='color: #3bc192')
+                  | Se debe terminar la descarga de los extintores y disponerlos para inmediatamente cargarlos y que queden disponibles para emergencias futuras.
 
-              li
-                i.fas.fa-square.fa-xs(style='color: #3bc192')
-                | En caso de presentarse una fuga o un derrame, se activan medidas similares a las anteriores.
+                li
+                  i.fas.fa-square.fa-xs(style='color: #3bc192')
+                  | En caso de presentarse una fuga o un derrame, se activan medidas similares a las anteriores.
     Separador
     #t_5_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 5.3  Valoración y prevención

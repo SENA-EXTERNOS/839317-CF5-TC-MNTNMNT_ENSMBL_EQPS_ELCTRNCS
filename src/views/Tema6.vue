@@ -17,7 +17,7 @@
               br
               br
               |Se sugiere la utilización de estos elementos para garantizar la salud y seguridad del trabajador.
-    PasosA.color-secundario.mb-5(tipo="n")
+    PasosA.color-secundario.mb-5(tipo="n").derechalinea
       .row(titulo="")
         .col-md-8.mb-4.mb-md-0
           h5 Guantes resistentes a cortes

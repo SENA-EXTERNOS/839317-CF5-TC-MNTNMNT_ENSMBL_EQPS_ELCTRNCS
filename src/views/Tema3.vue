@@ -8,8 +8,8 @@
       h1 Almacenamiento de residuos 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .tarjeta.tarjeta-icono-lado.izquierda.p-5(style='background-color: #e5e7f2').mb-5
-          img(src='@/assets/curso/temas/tema3/1.svg', alt='').d-lg-block.d-none.ms-4.ps-5
+        .tarjeta.tarjeta-icono-lado.izquierda.p-5(style='background-color: #e5e7f2').mb-5.bg-cards2
+          img(src='@/assets/curso/temas/tema3/1.svg', alt='' style="width: 300px; top: 30px").d-lg-block.d-none.ms-4.ps-5
           p De acuerdo con el Ministerio de Ambiente y Desarrollo Sostenible, el almacenamiento de residuos es un proceso fundamental e indispensable, dado que garantiza la forma correcta de disponer los residuos y su utilización, se requieren condiciones básicas de almacenamiento.
     p.mb-5(data-aos='fade-right') A continuación, se presentan algunos de los métodos que se llevan a cabo durante el almacenamiento de residuos.
     .row.justify-content-center.mb-5
@@ -116,12 +116,12 @@
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 3.2  Señalización
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .tarjeta.tarjeta-icono-lado.derecha.p-5(style='background-color: #bef0d9').mb-5
-          img(src='@/assets/curso/temas/tema3/13.svg', alt='').d-lg-block.d-none.ms-4.ps-5
+      .col-lg-8
+        .tarjeta.tarjeta-icono-lado.derecha.p-4(style='background-color: #bef0d9').mb-5
+          img(src='@/assets/curso/temas/tema3/13.svg', alt='' style="width: 350px; right: 20px").d-lg-block.d-none.ms-4.ps-5
           p Tiene como objetivo establecer indicaciones normativas de diferentes colores que adviertan a las personas ante la existencia o la presencia de algún tipo de peligro, evitando afectaciones al medio ambiente o la salud. Se ubican en lugares estratégicos de fácil recordación. Deben ser instaladas en lugares iluminados, de lo contrario se deben realizar en materiales reflectivos.
     p.mb-5(data-aos='fade-right') En el siguiente apartado se hará mención de los elementos que dictamina la máxima autoridad ambiental en Colombia, en cabeza del Ministerio de Ambiente y Desarrollo Sostenible, los cuales deben ser tenidos en cuenta para su uso y ubicación.
-    PasosA.color-secundario.mb-5(tipo="l")
+    PasosA.color-secundario.mb-5(tipo="l").derechalinea
       .row(titulo="").align-items-center.justify-content-center
         .col-md-6.mb-4.mb-md-0
           h4 Idioma

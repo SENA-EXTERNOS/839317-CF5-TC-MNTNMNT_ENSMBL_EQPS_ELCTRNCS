@@ -47,7 +47,7 @@
                 br 
                 span.fst-italic Categorización de Aparatos Eléctricos y Electrónicos.
               img(src='@/assets/curso/temas/tema1/4.svg', alt='').mb-2
-              figcaption.border-3(style="background-color: #ddd8f4") #[b Nota:] Adaptado de Categorización de los Aparatos Eléctricos y Electrónicos en Colombia. Ministerio de Ambiente y Desarrollo Sostenible (2017)  
+              figcaption.border-3.fst-italic(style="background-color: #ddd8f4") Nota: Adaptado de Categorización de los Aparatos Eléctricos y Electrónicos en Colombia. Ministerio de Ambiente y Desarrollo Sostenible (2017)  
         div
           p.mb-5(data-aos='fade-right') Existen otro tipo de categorías para los aparatos eléctricos y electrónicos (AEE), utilizados en diferentes campos, hogar, instituciones, comercio y en empresas. Se presentan seis categorías equivalentes ilustradas en la siguiente tabla:
           .row.justify-content-center.mb-5
@@ -57,7 +57,7 @@
                 br 
                 span.fst-italic Categorización de los apararos eléctricos y electrónicos (AEE) en la UE según directiva RAEE de 2002
               img(src='@/assets/curso/temas/tema1/5.svg', alt='').mb-3
-              figcaption.rounded-3.mb-3(style="background-color: #ddd8f4") #[b Nota:] Adaptado de Categorización de los apararos eléctricos y electrónicos (AEE) en la UE según directiva RAEE de 2002, Ministerio de Ambiente y Desarrollo Sostenible (2017).
+              figcaption.rounded-3.mb-3.fst-italic(style="background-color: #ddd8f4")  Nota: Adaptado de Categorización de los apararos eléctricos y electrónicos (AEE) en la UE según directiva RAEE de 2002, Ministerio de Ambiente y Desarrollo Sostenible (2017).
               a.boton.color-acento-botones.indicador__container.d-block.text-center(@click="modal1 = true")
                 span Ampliar imagen
                 i.fas.fa-search
@@ -71,7 +71,7 @@
                 br 
                 span.fst-italic Categorización de los apararos eléctricos y electrónicos (AEE) en la UE según directiva RAEE de 2012
               img(src='@/assets/curso/temas/tema1/6.svg', alt='').mb-3
-              figcaption.rounded-3.mb-3(style="background-color: #ddd8f4") #[b Nota:] Adaptado de Categorización de los apararos eléctricos y electrónicos (AEE) en la UE según directiva RAEE de 2012, Ministerio de Ambiente y Desarrollo Sostenible (2017, Pág. 27)
+              figcaption.rounded-3.mb-3.fst-italic(style="background-color: #ddd8f4")  Nota: Adaptado de Categorización de los apararos eléctricos y electrónicos (AEE) en la UE según directiva RAEE de 2012, Ministerio de Ambiente y Desarrollo Sostenible (2017, Pág. 27)
               a.boton.color-acento-botones.indicador__container.d-block.text-center(@click="modal2 = true")
                 span Ampliar imagen
                 i.fas.fa-search
@@ -106,7 +106,7 @@
                 br 
                 span.fst-italic Posibles sustancias peligrosas presentes en los RAEE.
             img(src='@/assets/curso/temas/tema1/9.svg', alt='').mb-3
-            figcaption.rounded-3.mb-3(style="background-color: #ddd8f4") #[b Nota:] Adaptado de Listado de posibles sustancias peligrosas presentes en los RAEE. Ministerio de Ambiente y Desarrollo Sostenible (2010, pág. 12)
+            figcaption.rounded-3.mb-3.fst-italic(style="background-color: #ddd8f4") Nota: Adaptado de Listado de posibles sustancias peligrosas presentes en los RAEE. Ministerio de Ambiente y Desarrollo Sostenible (2010, pág. 12)
             a.boton.color-acento-botones.indicador__container.d-block.text-center(@click="modal3 = true")
               span Ampliar imagen
               i.fas.fa-search
@@ -121,7 +121,7 @@
                 br 
                 span.fst-italic Composición porcentual de materiales presentes en los RAEE.
             img(src='@/assets/curso/temas/tema1/10.svg', alt='').mb-3
-            figcaption.rounded-3.mb-3(style="background-color: #ddd8f4") #[b Nota:] Adaptado de Composición porcentual de materiales presentes en los RAEE. Ministerio de Medio Ambiente y Desarrollo Sostenible (2017, Pág. 28) 
+            figcaption.rounded-3.mb-3.fst-italic(style="background-color: #ddd8f4") Nota: Adaptado de Composición porcentual de materiales presentes en los RAEE. Ministerio de Medio Ambiente y Desarrollo Sostenible (2017, Pág. 28) 
             a.boton.color-acento-botones.indicador__container.d-block.text-center(@click="modal4 = true")
               span Ampliar imagen
               i.fas.fa-search
@@ -171,7 +171,7 @@
             .row.justify-content-center.align-items-center.mb-5
               .col-lg-6 
                 img(src='@/assets/curso/temas/tema1/14.svg', alt='').mb-3
-              figcaption.rounded-3.mb-3(style="background-color: #ddd8f4").fw-normal #[b Nota:] Adaptado de The Global E-waste Monitor 2014: Quantities, Flows and Resources. United Nations Univ., Inst. for the advanced study on sustainability. (Balde et al., 2015).  Cifras mundiales de la disposición final de los RAEE. Baldé (2015).
+              figcaption.rounded-3.mb-3.fst-italic(style="background-color: #ddd8f4").fw-normal Nota: Adaptado de The Global E-waste Monitor 2014: Quantities, Flows and Resources. United Nations Univ., Inst. for the advanced study on sustainability. (Balde et al., 2015).  Cifras mundiales de la disposición final de los RAEE. Baldé (2015).
         .row.justify-content-between.align-items-center
           .col-md-6.mb-4.mb-md-0
             p El reporte conocido para Colombia frente a esta problemática en el 2014, expone una generación de residuos de 252.000 toneladas, equivalentes a un 5.3 % kilogramos por cada habitante, teniendo como base de población 47.71 millones de habitantes, entre los que se resaltan los teléfonos celulares, electrodomésticos, computadores, bombillas y baterías, (Ministerio de Ambiente y Desarrollo Sostenible, 2017)   
@@ -186,14 +186,14 @@
               span.fst-italic Estudios desarrollados en Colombia sobre generación de RAEE.
             .row.justify-content-center.align-items-center.mb-5
               .col-lg-6 
-                img(src='@/assets/curso/temas/tema1/15.svg', alt='').mb-3
-              figcaption.rounded-3.mb-3(style="background-color: #ddd8f4").fw-normal #[b Nota:] Estudios desarrollados en Colombia sobre generación de RAEE. Ministerio de Ambiente y Desarrollo Sostenible (2017). 
+                img(src='@/assets/curso/temas/tema1/am1.svg', alt='').mb-3
+              figcaption.rounded-3.mb-3.fst-italic(style="background-color: #ddd8f4").fw-normal Nota: Estudios desarrollados en Colombia sobre generación de RAEE. Ministerio de Ambiente y Desarrollo Sostenible (2017). 
     ModalA(:abrir-modal.sync="modal5")  
       div
-        img(src='@/assets/curso/temas/tema1/4.svg', alt='')
+        img(src='@/assets/curso/temas/tema1/14.svg', alt='')
     ModalA(:abrir-modal.sync="modal6")  
       div
-        img(src='@/assets/curso/temas/tema1/15.svg', alt='')
+        img(src='@/assets/curso/temas/tema1/am2.svg', alt='')
     Separador 
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.5  Salud y medio ambiente
@@ -207,7 +207,7 @@
             br
             span.fst-italic Residuos eléctricos y electrónicos.
           img(src='@/assets/curso/temas/tema1/16.png', alt='').mb-3
-          figcaption.rounded-3.mb-3(style="background-color: #ddd8f4").fw-normal #[b Nota:] Adaptado del Día Mundial del Medio Ambiente. Encyclopædia Britannica ImageQuest (2022). 
+          figcaption.rounded-3.mb-3.fst-italic(style="background-color: #ddd8f4").fw-normal  Nota: Adaptado del Día Mundial del Medio Ambiente. Encyclopædia Britannica ImageQuest (2022). 
     Separador
     #t_1_6.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.6  Reutilización 
@@ -220,12 +220,12 @@
       h2 1.7  Reciclaje 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .tarjeta.tarjeta-icono-lado.derecha.p-5(style='background-color: #ffe6c1').mb-5
-          img(src='@/assets/curso/temas/tema1/17.svg', alt='').d-lg-block.d-none
+        .tarjeta.tarjeta-icono-lado.derecha.p-3(style='background-color: #ffe6c1').mb-5
+          img(src='@/assets/curso/temas/tema1/17.svg', alt='' style="width: 280px; right: 70px").d-lg-block.d-none
           p Es una técnica enfocada en la transformación y aprovechamiento de los residuos o del calor emitido por los componentes de los aparatos eléctricos y electrónicos. Este método se puede hacer de manera mecánica, manual o combinada. Debe separarse los residuos contaminantes y se obtienen tres grupos principales de materiales: metales, vidrios y plásticos, los cuales se restauran por medio de tres procesos básicos.
     p.mb-5(data-aos='fade-right') La fundición, refinación térmica y química e incineración son los tres procesos básicos a través de los cuales se realiza el proceso de reciclaje de los equipos eléctricos y electrónicos: Aquí los tres grupos: 
     .row.justify-content-center.mb-5
-      .col-lg-10(data-aos="fade-right")
+      .col-lg-11(data-aos="fade-right")
         TabsA.color-secundario.mb-5
           .tarjeta.p-4(titulo="Fundición " style='background-color: #e5e7f2')
             p Se refiere al proceso de derretir y licuar metales o cuerpos sólidos y el reciclaje común de metales ferrosos, es decir que contienen hierro.
@@ -233,19 +233,19 @@
             p Indica el método de la recuperación de metales nobles, no ferrosos, contenidos en las tarjetas de circuito impreso y en otros residuos eléctricos y electrónicos, a través de técnicas térmicas o químicas.
           .tarjeta.p-4(titulo="Incineración" style='background-color: #e5e7f2')
             p Los residuos sin valor, no aprovechables o con contenidos peligrosos son calcinados bajo altos estándares de calidad que permiten la recuperación del valor del aparato, esta puede ser en forma de energía eléctrica y así evitar la contaminación al ambiente por las emisiones atmosféricas, a través de sistemas de control y descontaminación de material particulado. (Ministerio de Ambiente y Desarrollo Sostenible, 2010).
-      .col-lg-2.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/18.png', alt='')
+      .col-lg-1.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/18.png', alt='')
     Separador
     #t_1_8.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.8  Disposición final 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .tarjeta.tarjeta-icono-lado.izquierda.p-5(style='background-color: #e5e7f2').mb-5
-          img(src='@/assets/curso/temas/tema1/19.svg', alt='').d-lg-block.d-none
+        .tarjeta.tarjeta-icono-lado.izquierda.p-5.bg-cards2.mb-5
+          img(src='@/assets/curso/temas/tema1/19.svg', alt='' style='width: 280px ; left: 50px').d-lg-block.d-none
           p Al quedar partes de los residuos que no se aprovechan en otros procesos, es necesario disponer de ellos, basándose en las normas o disposiciones de cada sistema, para ello existen diferentes opciones:
     p.mb-5(data-aos='fade-right') A continuación, se presentan las alternativas para la disposición final de los residuos de aparatos eléctricos y electrónicos (AEE).
     .row.justify-content-center.mb-5
       .col-lg-6(data-aos="zoom-in")
-        ImagenInfografica.color-acento-botones.mb-5
+        ImagenInfografica.color-acento-botones.mb-5.dots-xl
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema1/20.svg', alt='Texto que describa la imagen')
@@ -255,11 +255,11 @@
           .tarjeta.p-3(x="100%" y="38%" numero="2" style='background-color: #cde6fa')
             h5 Recolección
             p Encargada por los fabricantes, distribuidores y punto de retorno, por medio de rutas de recolección y empresas de reciclaje.
-          .tarjeta.p-3(x="75%" y="90%" numero="3" style='background-color: #cde6fa')
+          .tarjeta.p-3(x="75%" y="95%" numero="3" style='background-color: #cde6fa')
             h5 Reciclaje
             p Siguiendo procesos de aprovechamiento (desensamble) y destrucción (la incineración controlada y especializada).
 
-          .tarjeta.p-3(x="27%" y="90%" numero="4" style='background-color: #cde6fa')
+          .tarjeta.p-3(x="27%" y="95%" numero="4" style='background-color: #cde6fa')
             h5 Relleno sanitario
             p Los materiales tales como papel adherido, empaques, cauchos, gomas y polvo son los que se deben de depositar en los rellenos sanitarios comunes, porque estos no representan peligro, como pueden ser algunas sustancias y metales de los RAEE.
           .tarjeta.p-3(x="0%" y="38%" numero="5" style='background-color: #cde6fa')
@@ -273,7 +273,7 @@
       .col-lg-10
         .tarjeta.tarjeta-icono-lado.derecha.p-5(style='background-color: #ffe6c1').mb-5
           img(src='@/assets/curso/temas/tema1/21.svg', alt='').d-lg-block.d-none.ms-4.ps-5
-          p Los residuos generados deben ser clasificados con el objetivo de recuperar y reutilizarlos en su mayoría y no perder partes, materiales o sistemas que puedan tener un segundo uso. El objetivo es no desperdiciar lo elementos que puedan ser útiles y para ello se deben catalogar y dar un tratamiento adecuado que ayude con el propósito final y no perjudique ni la salud, ni el medio ambiente. Este ítem se amplía en el estudio del componente, en otros apartados con mayor profundidad, siguiendo la normatividad del país en este aspecto. (Ministerio de Ambiente y Desarrollo Sostenible, 2018)
+          p Los residuos generados deben ser clasificados con el objetivo de recuperar y reutilizarlos en su mayoría y no perder partes, materiales o sistemas que puedan tener un segundo uso. El objetivo es no desperdiciar los elementos que puedan ser útiles y para ello se deben catalogar y dar un tratamiento adecuado que ayude con el propósito final y no perjudique ni la salud, ni el medio ambiente. Este ítem se amplía en el estudio del componente, en otros apartados con mayor profundidad, siguiendo la normatividad del país en este aspecto. (Ministerio de Ambiente y Desarrollo Sostenible, 2018)
     Separador
     #t_1_10.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.10  Etiquetado
@@ -290,7 +290,7 @@
             br
             span.fst-italic Etiqueta RAEE
           img(src='@/assets/curso/temas/tema1/22.png', alt='').mb-3
-          figcaption.rounded-3.mb-3(style="background-color: #ddd8f4").fw-normal #[b Nota:] Adaptado de Etiqueta de clasificación para RAEE, Your Europe (2022
+          figcaption.rounded-3.mb-3.fst-italic(style="background-color: #ddd8f4").fw-normal  Nota: Adaptado de Etiqueta de clasificación para RAEE, Your Europe (2022
       p Todos los aparatos comercializados en la Unión Europea deben de ser identificados con esta etiqueta y son obligatorias en los productos de las siguientes categorías. 
     SlyderF.slyder-100.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta-avatar
@@ -330,7 +330,8 @@
       .col-lg-10
         .tarjeta.tarjeta-icono-lado.derecha.p-5(style='background-color: #e5e7f2').mb-5
           img(src='@/assets/curso/temas/tema1/29.svg', alt='').d-lg-block.d-none.ms-4.ps-5
-          p Para esto se han establecido diferentes normas tanto a nivel nacional como internacional, para evitar los riesgos en la salud de la población y el deterioro al ambiente, de ahí la importancia en aunar esfuerzos hacía la prevención, la reducción de generación de estos residuos y la protección de los recursos naturales, orientados a la conciencia de la reutilización de aparatos y el reciclaje de los mismos. Para Colombia, el Ministerio de Ambiente y desarrollo sostenible, ha establecido normas como los Lineamientos Técnicos para el Manejo de Residuos de Aparatos Eléctricos y Electrónicos (2010) y la Política Nacional de Gestión Integral de Residuos de Aparato Eléctricos y Electrónicos (2017).
+          p Para esto se han establecido diferentes normas tanto a nivel nacional como internacional, para evitar los riesgos en la salud de la población y el deterioro al ambiente, de ahí la importancia en aunar esfuerzos hacía la prevención, la reducción de generación de estos residuos y la protección de los recursos naturales, orientados a la conciencia de la reutilización de aparatos y el reciclaje de los mismos. Para Colombia, el Ministerio de Ambiente y desarrollo sostenible, ha establecido normas como los #[em Lineamientos Técnicos para el Manejo de Residuos de Aparatos Eléctricos y Electrónicos (2010) y la Política Nacional de Gestión Integral de Residuos de Aparato Eléctricos y Electrónicos (2017).]
+    
 
 
 

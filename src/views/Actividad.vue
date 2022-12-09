@@ -9,7 +9,7 @@
           figure
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
+        .titulo-segundo.color-acento-contenido
           h2 Verdadero y falso
         p.mb-4 La actividad que se presenta a continuación, tiene como propósito identificar el grado de comprensión de los conceptos desarrollados en esta guía académica; para ello, deberá determinar si las afirmaciones son verdaderas o falsas, es importante que lea y analice cada uno de los enunciados, de esta manera podrá seleccionar la respuesta correcta.
         .tarjeta.actividad.p-3

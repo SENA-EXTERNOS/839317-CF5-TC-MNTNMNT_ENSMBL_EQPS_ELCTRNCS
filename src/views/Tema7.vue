@@ -12,7 +12,7 @@
       | A continuación, se presentan algunas de las consideraciones para la manipulación de cargas: (Ministerio de Ambiente y Desarrollo Sostenible 2010) 
     .row.justify-content-center.mb-5
       .col-lg-10
-        ImagenInfografica.color-primario.mb-5
+        ImagenInfografica.mb-5.dots-white
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema7/1.svg', alt='Texto que describa la imagen')
@@ -61,33 +61,33 @@
       br
       br
       | Para esto, se deben tener en cuenta las siguientes consideraciones (Ministerio de Ambiente y Desarrollo Sostenible 2010):
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+    SlyderF.mb-5.slyder-100(columnas="col-lg-6 col-xl-4")
       .tarjeta-avatar
-        img(src='@/assets/curso/temas/tema7/2.svg' alt='AvatarTop')
+        img(src='@/assets/curso/temas/tema7/2.svg' alt='AvatarTop' style='width: 200px')
         .tarjeta.w-100.card-hover
           .p-4
             h4.text-center Empaque
             p Por lo general, los componentes de equipos electrónicos deben ser empacados de manera segura, evitando el desprendimiento de componentes con contenidos peligrosos al ambiente.
       .tarjeta-avatar
-        img(src='@/assets/curso/temas/tema7/3.svg' alt='AvatarTop')
+        img(src='@/assets/curso/temas/tema7/3.svg' alt='AvatarTop' style='width: 200px')
         .tarjeta.w-100.card-hover
           .p-4
             h4.text-center Cajas Gaylord
             p Todos los componentes deben ser colocados preferiblemente en cajas de cartón (sueltas o caja Gaylord) o de madera.
       .tarjeta-avatar
-        img(src='@/assets/curso/temas/tema7/4.svg' alt='AvatarTop')
+        img(src='@/assets/curso/temas/tema7/4.svg' alt='AvatarTop' style='width: 200px')
         .tarjeta.w-100.card-hover
           .p-4
             h4.text-center Estibas
             p Todas las cajas sueltas de cartón que se coloquen sobre las estibas deben ser envueltas con un plástico para colocarlas en palés.
       .tarjeta-avatar
-        img(src='@/assets/curso/temas/tema7/5.svg' alt='AvatarTop')
+        img(src='@/assets/curso/temas/tema7/5.svg' alt='AvatarTop' style='width: 200px')
         .tarjeta.w-100.card-hover
           .p-4
             h4.text-center Verificar
             p Asegurar que la carga no sobresalga de la caja.
       .tarjeta-avatar
-        img(src='@/assets/curso/temas/tema7/6.svg' alt='AvatarTop')
+        img(src='@/assets/curso/temas/tema7/6.svg' alt='AvatarTop' style='width: 200px')
         .tarjeta.w-100.card-hover
           .p-4
             h4.text-center Almacenamiento de baterías
@@ -96,9 +96,9 @@
     #t_7_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 7.2  Riesgos, prevención y cuidados
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .tarjeta.tarjeta-icono-lado.izquierda.p-5(style='background-color: #e5e7f2').mb-5
-          img(src='@/assets/curso/temas/tema1/8.svg', alt='').d-lg-block.d-none
+      .col-lg-9
+        .tarjeta.tarjeta-icono-lado.derecha.p-5(style='background-color: #ffe6c1').mb-5
+          img(src='@/assets/curso/temas/tema7/c1.svg', alt='' style="width: 350px").d-lg-block.d-none
           p Siempre se debe evitar el deterioro de los residuos de aparatos eléctricos y electrónicos, dado que algunos de ellos pueden ser recuperados o pueden desgastarse a tal punto que presenten emisiones de sustancias peligrosas. Los riesgos están relacionados a la actividad que se esté efectuando en el momento y se han considerado ampliamente durante el componente. 
     p.mb-5(data-aos='fade-right') Se deben acatar y seguir todas las medidas de prevención y cuidado recomendado en la manipulación de las cargas (Ministerio de Ambiente y Desarrollo Sostenible 2010).
     TabsC.color-acento-contenido.mb-5
