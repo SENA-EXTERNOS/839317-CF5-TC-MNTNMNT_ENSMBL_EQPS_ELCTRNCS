@@ -10,8 +10,8 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
-          h2 Verdadero y falso
-        p.mb-4 La actividad que se presenta a continuación, tiene como propósito identificar el grado de comprensión de los conceptos desarrollados en esta guía académica; para ello, deberá determinar si las afirmaciones son verdaderas o falsas, es importante que lea y analice cada uno de los enunciados, de esta manera podrá seleccionar la respuesta correcta.
+          h2 Disposición de residuos electrónicos
+        p.mb-4 Apreciado aprendiz, a continuación, encontrará una serie de preguntas que deberá resolver, con el objetivo de evaluar la aprehensión de los conocimientos expuestos en este componente formativo.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

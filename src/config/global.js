@@ -37,173 +37,37 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Residuos',
+        titulo: 'Residuos eléctricos y electrónicos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Categorización',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Mezclas, sustancias y fluidos',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Material crítico',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Potencial de reciclaje',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Salud y medio ambiente',
-            hash: 't_1_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Reutilización',
-            hash: 't_1_6',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Reciclaje',
-            hash: 't_1_7',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Disposición final',
-            hash: 't_1_8',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Aprovechamiento y tratamiento',
-            hash: 't_1_9',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Etiqueta',
-            hash: 't_1_10',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Prevención de riesgos',
-            hash: 't_1_11',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Normatividad ambiental',
+        titulo: 'Almacenamiento de residuos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Almacenamiento de residuos',
+        titulo: 'Corrientes de materiales recuperados',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Sistemas y elementos de almacenamiento',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Señalización',
-            hash: 't_3_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Corrientes de materiales recuperados',
+        titulo: 'Protocolos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema5',
         icono: 'far fa-file-alt',
         numero: '5',
-        titulo: 'Protocolos',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.1',
-            titulo: 'Herramientas y medida de control',
-            hash: 't_5_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.2',
-            titulo: 'Protocolos',
-            hash: 't_5_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.3',
-            titulo: 'Valoración y prevención',
-            hash: 't_5_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.4',
-            titulo: 'Manejo de sustancias peligrosas',
-            hash: 't_5_4',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema6',
-        icono: 'far fa-file-alt',
-        numero: '6',
-        titulo: 'Seguridad y salud en el trabajo',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema7',
-        icono: 'far fa-file-alt',
-        numero: '7',
         titulo: 'Técnicas de manipulación de cargas',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '7.1',
-            titulo: 'Aplicabilidad',
-            hash: 't_7_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '7.2',
-            titulo: 'Riesgos, prevención y cuidado',
-            hash: 't_7_2',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -248,33 +112,31 @@ export default {
   },
   complementario: [
     {
-      tema:
-        'Hoy no se habla de basura, sino de residuos que son insumos para productos: Minambiente.      ',
+      tema: 'Almacenamiento de residuos',
       referencia:
-        'Ministerio de Ambiente y Desarrollo Sostenible, (2022), <em> Hoy no se habla de basura, sino de residuos que son insumos para productos: Minambiente.</em> ',
+        'Ministerio de Ambiente y Desarrollo Sostenible. (2022). <i>Hoy no se habla de basura, sino de residuos que son insumos para productos</i>. Minambiente.',
       tipo: 'Página Web.',
       link:
         'https://www.minambiente.gov.co/asuntos-ambientales-sectorial-y-urbana/hoy-no-se-habla-de-basura-sino-de-residuos-que-son-insumos-para-productos-minambiente/',
     },
     {
-      tema:
-        'Calculadora de generación de residuos de aparatos eléctricos y electrónicos – RAEE',
+      tema: 'Residuos eléctricos y electrónicos',
       referencia:
-        'Ministerio de Ambiente y Desarrollo Sostenible, (2022),<em>Calculadora de generación de residuos de aparatos eléctricos y electrónicos – RAEE. Minambiente.</em> ',
+        'Ministerio de Ambiente y Desarrollo Sostenible. (2022). <i>Calculadora de generación de residuos de aparatos eléctricos y electrónicos – RAEE.</i> Minambiente.',
       tipo: 'Página Web.',
       link: 'https://calculadoraraee.minambiente.gov.co/#/',
     },
     {
-      tema: 'Mercurio, cambio responsable.',
+      tema: 'Residuos eléctricos y electrónicos',
       referencia:
-        'Ministerio de Ambiente y Desarrollo Sostenible - Colombia, (2021), <em> Mercurio, cambio responsable.</em> [Vídeo]. Youtube.',
+        'Ministerio de Ambiente y Desarrollo Sostenible - Colombia. (2021). <i>Mercurio, cambio responsable</i>.',
       tipo: 'Video.',
       link: 'https://youtu.be/LfffzddWlhA',
     },
     {
-      tema: 'Mesa Nacional de Aprovechamiento de Masa Residual.',
+      tema: 'Corrientes de materiales recuperados',
       referencia:
-        'Ministerio de Ambiente y Desarrollo Sostenible - Colombia, (2021), <em> Mesa Nacional de Aprovechamiento de Masa Residual.</em> [Vídeo]. YouTube. ',
+        'Ministerio de Ambiente y Desarrollo Sostenible - Colombia. (2021). <i>Mesa Nacional de Aprovechamiento de Masa Residual</i>.',
       tipo: 'Video.',
       link: 'https://www.youtube.com/watch?v=PwJOl_14Ruw',
     },
@@ -332,109 +194,95 @@ export default {
   referencias: [
     {
       referencia:
-        'Baldé, C. W. (2015), <em> The Global E-waste Monitor.</em> Balde, C. P., Kuehr, F., & Huisman, J. (2015). <em> The Global E-waste Monitor 2014: Quantities, Flows and Resources.</em> United Nations Univ., Inst. for the advanced study on sustainability. ',
+        'Balde, C., Kuehr, F., & Huisman, J. (2015). <i>The Global E-waste Monitor 2014: Quantities, Flows and Resources</i>.',
       link:
         'https://i.unu.edu/media/unu.edu/news/52624/UNU-1stGlobal-E-Waste-Monitor-2014-small.pdf',
     },
     {
       referencia:
-        'Decreto 1076 de 2015, [Ministerio de Ambiente y Desarrollo Sostenible], Por medio del cual se expide el Decreto Único Reglamentario del Sector Ambiente y Desarrollo Sostenible. 20 de diciembre de 2021.',
-      link: '',
+        'Decreto 1076 de 2015. [Ministerio de Ambiente y Desarrollo Sostenible]. Por medio del cual se expide el Decreto Único Reglamentario del Sector Ambiente y Desarrollo Sostenible. Diciembre 20 de 2021.',
     },
     {
       referencia:
-        'Decreto 284 de 2018. [Ministerio de Ambiente y Desarrollo Sostenible]. Por el cual se adiciona el Decreto 1076 de 2015, Único Reglamentario del Sector Ambiente y Desarrollo Sostenible, en lo relacionado con la Gestión Integral de los Residuos de Aparatos ',
-      link: '',
+        'Decreto 284 de 2018. [Ministerio de Ambiente y Desarrollo Sostenible]. Por el cual se adiciona el Decreto 1076 de 2015, Único Reglamentario del Sector Ambiente y Desarrollo Sostenible, en lo relacionado con la Gestión Integral de los Residuos de Aparatos Eléctricos y Electrónicos - RAEE Y se dictan otras disposiciones. Febrero 15 de 2018. ',
     },
     {
       referencia:
-        'Eléctricos y Electrónicos - RAEE Y se dictan otras disposiciones. 15 de febrero de 2018. ',
-      link:
-        'https://www.minambiente.gov.co/wp-content/uploads/2021/08/decreto-284-de-2018.pdf ',
+        'Encyclopedia Britannica ImageQuest. (2022). <i>Millones de imágenes libres de derechos de autor recopiladas en un único sitio confiable</i>. Bdigital.sena.',
+      link: 'https://quest-eb-com.bdigital.sena.edu.co/',
     },
     {
       referencia:
-        'Encyclopædia Britannica ImageQuest, (2022), <em> Millones de imágenes libres de derechos de autor recopiladas en un único sitio confiable.</em>',
-      link: 'https://quest-eb-com.bdigital.sena.edu.co/ ',
-    },
-    {
-      referencia:
-        'Greenpeace, (2011), <em> Basura informática: la otra cara de la tecnología.</em> Obtenido de Buenos Aires: Greenpeace Argentina.',
+        'Greenpeace. (2011). <i>Basura informática: la otra cara de la tecnología</i>. Greenpeace. ',
       link: 'http://www.greenpeace.org/argentina/Global/argentina/report/',
     },
     {
       referencia:
-        'Ley 1672 de 2013. [Ministerio de Ambiente y Desarrollo Sostenible]. Por la cual se establecen los lineamientos para la adopción de una política pública de gestión integral de residuos de aparatos eléctricos y electrónicos (RAEE), y se dictan otras disposiciones.10 de julio de 2013. ',
-      link: '',
+        'Ley 1672 de 2013. Por la cual se establecen los lineamientos para la adopción de una política pública de gestión integral de residuos de aparatos eléctricos y electrónicos (RAEE), y se dictan otras disposiciones. Julio 10 de 2013.',
     },
     {
       referencia:
-        'Ministerio de Ambiente y Desarrollo Sostenible, (2010), <em> Lineamientos Técnicos para el Manejo de Residuos de Aparatos Eléctricos y Electrónicos.</em>',
+        'Ministerio de Ambiente y Desarrollo Sostenible. (2010). <i>Lineamientos Técnicos para el Manejo de Residuos de Aparatos Eléctricos y Electrónicos</i>.',
       link:
         'https://www.minambiente.gov.co/wp-content/uploads/2021/10/Guia_RAEE_MADS_2011-reducida.pdf ',
     },
     {
       referencia:
-        'Ministerio de Ambiente  y Desarrollo Sostenible, (2022), <em> Guías Ambientales de Almacenamiento y Transporte por Carretera de Sustancias Químicas Peligrosas y Residuos Peligrosas.</em>   ',
+        'Ministerio de Ambiente  y Desarrollo Sostenible .(2022). <i>Guías Ambientales de Almacenamiento y Transporte por Carretera de Sustancias Químicas Peligrosas y Residuos Peligrosos</i>.',
       link:
-        'https://www.minambiente.gov.co/documento-entidad/guias-ambientales-de-almacenamiento-y-transporte-por-carretera-de-sustancias-quimicas-peligrosas-y-residuos-peligrosos/',
+        'https://www.minambiente.gov.co/wp-content/uploads/2021/10/guias_ambientales_almacenam_transp_x_carretera_sust_quimicas_res_pelig.pdf',
     },
     {
       referencia:
-        'Ministerio de Ambiente y Desarrollo Sostenible, (2017), <em> Política Nacional. Gestión Integral de Residuos de Aparato Eléctricos y Electrónicos – RAEE</em>.  Ministerio de Ambiente y Desarrollo Sostenible.',
+        'Ministerio de Ambiente y Desarrollo Sostenible. (2017). <i>Política Nacional. Gestión Integral de Residuos de Aparato Eléctricos y Electrónicos – RAEE.</i>',
       link:
         'https://www.minambiente.gov.co/wp-content/uploads/2021/10/Politica_RAEE.pdf',
     },
     {
       referencia:
-        'Ministerio de Ambiente y Desarrollo Sostenible, (2021), <em> Manual: buenas prácticas para el manejo de los residuos de aparatos eléctricos y electrónicos (RAEE).</em> ',
+        'Ministerio de Ambiente y Desarrollo Sostenible. (2021). <i>Manual: buenas prácticas para el manejo de los residuos de aparatos eléctricos y electrónicos (RAEE)</i>.',
       link:
         'https://www.minvivienda.gov.co/sites/default/files/procesos/grf-m-03-manual-de-buenas-practicas-para-el-manejo-de-los-residuos-de-aparatos-electricos-y-electronicos-raee-1.0-.pdf',
     },
     {
       referencia:
-        'Resolución 1297 de 2010. [Ministerio de Ambiente y Desarrollo Sostenible]. Por la cual se establecen los Sistemas de Recolección Selectiva y Gestión Ambiental de Residuos de Pilas y/o Acumuladores y se adoptan otras disposiciones. Julio 8 de 2010. ',
-      link: '',
+        'Resolución 1297 de 2010. [Ministerio de Ambiente y Desarrollo Sostenible]. Por la cual se establecen los Sistemas de Recolección Selectiva y Gestión Ambiental de Residuos de Pilas y/o Acumuladores y se adoptan otras disposiciones. Julio 8 de 2010.',
     },
     {
       referencia:
-        'Resolución 1511 de 2010. [Ministerio de Ambiente y Desarrollo Sostenible]. Por la cual se establecen los Sistemas de Recolección Selectiva y Gestión Ambiental de Residuos de Bombillas y se adoptan otras disposiciones. Agosto 5 de 2010. ',
-      link: '',
+        'Resolución 1511 de 2010. [Ministerio de Ambiente y Desarrollo Sostenible]. Por la cual se establecen los Sistemas de Recolección Selectiva y Gestión Ambiental de Residuos de Bombillas y se adoptan otras disposiciones. Agosto 5 de 2010.',
     },
     {
       referencia:
-        'Resolución 1512 de 2015. [Ministerio de Ambiente  y Desarrollo Sostenible]. Por la cual se establecen los Sistemas de Recolección Selectiva y Gestión Ambiental de Residuos de Computadores y/o Periféricos y se adoptan otras disposiciones. Agosto 5 de 2015.',
-      link: '',
+        'Resolución 1512 de 2015. [Ministerio de Ambiente y Desarrollo Sostenible]. Por la cual se establecen los Sistemas de Recolección Selectiva y Gestión Ambiental de Residuos de Computadores y/o Periféricos y se adoptan otras disposiciones. Agosto 5 de 2015.',
     },
     {
       referencia:
-        'Resolución 0076 [Ministerio de Ambiente y Desarrollo Sostenible]. Por medio del cual se adoptan los términos de referencia para la elaboración del Estudio de Impacto Ambiental. EIA. 16 de enero del 2019. ',
-      link: '',
+        'Resolución 0076 de 2019. [Ministerio de Ambiente y Desarrollo Sostenible]. Por medio del cual se adoptan los términos de referencia para la elaboración del Estudio de Impacto Ambiental. EIA. Enero 16 de 2019.',
     },
     {
       referencia:
-        'Resolución 480 de 2019 [Ministerio de Ambiente y Desarrollo Sostenible]. Por medio del cual se adoptan los términos de referencia para la elaboración del Estudio de Impacto Ambiental. EIA. 16 de enero del 2019.',
-      link: '',
+        'Resolución 480 de 2019. [Ministerio de Ambiente y Desarrollo Sostenible]. Por medio del cual se adoptan los términos de referencia para la elaboración del Estudio de Impacto Ambiental. EIA. Enero 16 de 2019.',
     },
     {
       referencia:
-        'Secretaría del Convenio de Basilea, (2015), <em> Directrices técnicas sobre los movimientos transfronterizos de desechos eléctricos y electrónicos y de equipo eléctrico y electrónico usado, en particular respecto de la distinción entre desechos y materiales que no son desechos.</em>',
+        'Secretaría del Convenio de Basilea. (2015). <i>Directrices técnicas sobre los movimientos transfronterizos de desechos eléctricos y electrónicos y de equipo eléctrico y electrónico usado, en particular respecto de la distinción entre desechos y materiales que no son desechos</i>. Basel.',
       link:
         'http://www.basel.int/TheConvention/ConferenceoftheParties/Meetings/Meeting-Documents/tabid/4249/ctl/Download/mid/13036/Default.aspx?id=323&ObjID=11755',
     },
     {
       referencia:
-        'Parlamento Europeo y el Consejo de la Unión Europea. (2008). <em> Directiva 2008/98/CE del Parlamento Europeo y del Consejo de 19 de noviembre del 2008.</em> Agencia Estatal Boletín Oficial del Estado de España',
-      link: 'https://www.boe.es/buscar/doc.php?id=DOUE-L-2008-82319',
+        'Diario oficial de la Unión Europea. (2008). <i>Directiva 2008/98/CE del Parlamento Europeo y del Consejo de 19 de noviembre del 2008 sobre los residuos y por la que se derogan determinadas Directivas</i>.',
+      link: 'https://www.boe.es/doue/2008/312/L00003-00030.pdf',
     },
     {
       referencia:
-        'Parlamento Europeo y el Consejo de la Unión Europea. (2012). Residuos de aparatos eléctricos y electrónicos, Estrasburgo. ',
+        'Diario oficial de la Unión Europea. (2012). <i>Directiva 2012/19/ue del parlamento europeo y del consejo de 4 de julio de 2012 sobre residuos de aparatos eléctricos y electrónicos (raee)</i>.',
       link:
         'http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2012:197:0038:0071:ES:PDF',
     },
     {
-      referencia: 'Your_Europe. (2022). <em> Etiquetado RAEE.</em> ',
+      referencia: 'Your Europe. (2022). <i>Etiquetado RAEE</i>. Youreurope.',
       link:
         'https://europa.eu/youreurope/business/product-requirements/labels-markings/weee-label/index_es.htm#:~:text=para%20las%20empresas-,%C2%BFQu%C3%A9%20es%20la%20etiqueta%20RAEE%3F,electr%C3%B3nicos%20comercializados%20en%20la%20UE.',
     },
