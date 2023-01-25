@@ -215,7 +215,7 @@
       .col-lg-9.pe-5
         .tarjeta.tarjeta-icono-lado.derecha.p-5(style='background-color: #ffe6c1').mb-5
           img(src='@/assets/curso/temas/tema1/21.svg', alt='').d-lg-block.d-none.ms-4.ps-5
-          p Los residuos generados, deben ser clasificados para recuperarlos y reutilizarlos y no perder partes, materiales o sistemas que puedan tener un segundo uso. El objetivo es no desperdiciar <b>los elementos</b> que puedan ser útiles y para ello se deben catalogar y darles un tratamiento adecuado que ayude con el propósito final y no perjudique ni la salud, ni el medio ambiente.
+          p Los residuos generados, deben ser clasificados para recuperarlos y reutilizarlos y no perder partes, materiales o sistemas que puedan tener un segundo uso. El objetivo es no desperdiciar los elementos que puedan ser útiles y para ello se deben catalogar y darles un tratamiento adecuado que ayude con el propósito final y no perjudique ni la salud, ni el medio ambiente.
     h4(data-aos="zoom-in-left").mb-5 Etiquetado
     .bg-cta3.p-5.mb-5
       .row.justify-content-center.mb-5
