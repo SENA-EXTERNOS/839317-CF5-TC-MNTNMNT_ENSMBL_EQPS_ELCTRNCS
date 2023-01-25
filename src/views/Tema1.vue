@@ -152,7 +152,7 @@
     ModalA(:abrir-modal.sync="modal6")  
       div
         img(src='@/assets/curso/temas/tema1/am2.svg', alt='')
-    h4(data-aos="zoom-in-left").my-5 SSalud, medio ambiente y reutilización
+    h4(data-aos="zoom-in-left").my-5 Salud, medio ambiente y reutilización
     .bg-cta3.p-5
       .row.justify-content-center.mb-5
         .col-lg-6(data-aos="fade-right")
@@ -160,7 +160,7 @@
         .col-lg-5.col-6(data-aos="fade-left")
           img(src='@/assets/curso/temas/tema1/16.png', alt='').mb-3
 
-    p.mb-5(data-aos='fade-right') El video que se presenta a continuación, ilustra el proceso para aprovechar los aparatos eléctricos y electrónicos e indica cómo se puede disminuir la huella ecológica, producto de los residuos que pueden generar este tipo de dispositivos: 
+    p.my-5(data-aos='fade-right') El video que se presenta a continuación, ilustra el proceso para aprovechar los aparatos eléctricos y electrónicos e indica cómo se puede disminuir la huella ecológica, producto de los residuos que pueden generar este tipo de dispositivos: 
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

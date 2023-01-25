@@ -162,7 +162,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 1.
+          h5 Tabla 1
           br
           span.fst-italic Colores de seguridad
         table
@@ -286,7 +286,7 @@
     .row.justify-content-center.mb-5
       .col-lg-6
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Tabla 2.
+            h5 Tabla 2
             br
             span.fst-italic Contraste de color para la señalización
         table
