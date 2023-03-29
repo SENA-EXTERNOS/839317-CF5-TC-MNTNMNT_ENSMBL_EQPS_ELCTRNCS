@@ -163,7 +163,7 @@
     p.my-5(data-aos='fade-right') El video que se presenta a continuación, ilustra el proceso para aprovechar los aparatos eléctricos y electrónicos e indica cómo se puede disminuir la huella ecológica, producto de los residuos que pueden generar este tipo de dispositivos: 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/9xTT_3OgeQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     h4(data-aos="zoom-in-left").mb-5 Reciclaje 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
