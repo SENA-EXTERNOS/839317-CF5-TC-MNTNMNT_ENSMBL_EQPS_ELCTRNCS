@@ -18,12 +18,12 @@
       | Algunas formas de controlar este tipo de riesgos se remiten a:
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos="fade-right")
-        TabsA.color-secundario.mb-5
-          .tarjeta.p-4(titulo="Registro" style='background-color: #e5e7f2')
+        TabsC.color-secundario.mb-5
+          .tarjeta.p-4.mb-3(titulo="Registro" style='background-color: #e5e7f2')
             p Se necesitan siempre el control de todos los procesos, evidenciados en los registros de entrada y salida, manipulación, ayudando al orden.
-          .tarjeta.p-4(titulo="Planes de<br> seguridad" style='background-color: #e5e7f2')
+          .tarjeta.p-4.mb-3(titulo="Planes de seguridad" style='background-color: #e5e7f2')
             p Cada etapa debe tener un plan de seguridad y debe hacer parte del proyecto general. deben ser difundidos, socializados y practicados por todo el personal, para saber cómo actuar en el momento de una emergencia.
-          .tarjeta.p-4(titulo="Destrucción de<br> información" style='background-color: #e5e7f2')
+          .tarjeta.p-4.mb-3(titulo="Destrucción de información" style='background-color: #e5e7f2')
             p Los dispositivos de almacenamiento de información suelen ser destruidos con el fin de evitar el robo de información y el fraude de los componentes.
       .col-lg-4.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema5/2.svg', alt='')
     h4(data-aos="zoom-in-left").mb-5 Aplicación de los protocolos  

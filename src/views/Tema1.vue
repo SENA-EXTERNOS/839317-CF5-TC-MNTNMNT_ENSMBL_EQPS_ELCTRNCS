@@ -115,7 +115,8 @@
           img(src='@/assets/curso/temas/tema1/12.svg', alt='' style="width: 300px; top: 30px").d-lg-block.d-none
           p Hace referencia a algunos metales preciosos y mezcla de los mismos, que se emplean para la fabricación de estos aparatos; es de acotar que la consecución de estos, se efectúa mediante explotación minera y se deben aplicar muchos químicos que afectan directamente el medio ambiente. Comparativamente con el resto de los materiales, su presencia es muy baja, pero son muy importantes por su valor económico.
     h4(data-aos="zoom-in-left").mb-5 Potencial de reciclaje
-    p.mb-5(data-aos='fade-right') El mundo está produciendo, continuamente, más residuos de aparatos eléctricos y electrónicos. Los reportes entregados indican que van en crecimiento y que el aumento presentado desde el 2014, ha prendido las alarmas; pese a los esfuerzos, este es un fenómeno que sigue creciendo.
+    p(data-aos='fade-right') El mundo está produciendo, continuamente, más residuos de aparatos eléctricos y electrónicos. Los reportes entregados indican que van en crecimiento y que el aumento presentado desde el 2014, ha prendido las alarmas; pese a los esfuerzos, este es un fenómeno que sigue creciendo.
+    p.mb-5(data-aos='fade-right') Los datos que se muestra a continuación, detallan las cifras del crecimiento de residuos de aparatos eléctricos y electrónicos.    
     .tarjeta.bg-slyde2.p-4
       SlyderA(tipo='b')
         .row.justify-content-between.align-items-center
