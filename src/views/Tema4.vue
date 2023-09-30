@@ -22,7 +22,7 @@
           .tarjeta.p-4.mb-3(titulo="Registro" style='background-color: #e5e7f2')
             p Se necesitan siempre el control de todos los procesos, evidenciados en los registros de entrada y salida, manipulación, ayudando al orden.
           .tarjeta.p-4.mb-3(titulo="Planes de seguridad" style='background-color: #e5e7f2')
-            p Cada etapa debe tener un plan de seguridad y debe hacer parte del proyecto general. deben ser difundidos, socializados y practicados por todo el personal, para saber cómo actuar en el momento de una emergencia.
+            p Cada etapa debe tener un plan de seguridad y debe hacer parte del proyecto general. Deben ser difundidos, socializados y practicados por todo el personal, para saber cómo actuar en el momento de una emergencia.
           .tarjeta.p-4.mb-3(titulo="Destrucción de información" style='background-color: #e5e7f2')
             p Los dispositivos de almacenamiento de información suelen ser destruidos con el fin de evitar el robo de información y el fraude de los componentes.
       .col-lg-4.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema5/2.svg', alt='')
