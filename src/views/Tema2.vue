@@ -290,7 +290,7 @@
             br
             span.fst-italic Contraste de color para la señalización
         table
-          caption.bg-white.fw-normal *El color de contraste blando será negro y para negro será blanco.
+          caption.bg-white.fw-normal *El color de contraste blanco será negro y para negro será blanco.
           caption(style="background-color: #f3ecff ") Nota: Adaptado de Contraste de color de seguridad para la señalización, (Ministerio de Ambiente y Desarrollo Sostenible, 2022).
           thead.text-center
             tr(style="background-color:   #cde6fa")
