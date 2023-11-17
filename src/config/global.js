@@ -201,10 +201,14 @@ export default {
     {
       referencia:
         'Decreto 1076 de 2015. [Ministerio de Ambiente y Desarrollo Sostenible]. Por medio del cual se expide el Decreto Único Reglamentario del Sector Ambiente y Desarrollo Sostenible. Diciembre 20 de 2021.',
+      link:
+        'https://www.minambiente.gov.co/wp-content/uploads/2021/06/Decreto-1076-de-2015.pdf',
     },
     {
       referencia:
         'Decreto 284 de 2018. [Ministerio de Ambiente y Desarrollo Sostenible]. Por el cual se adiciona el Decreto 1076 de 2015, Único Reglamentario del Sector Ambiente y Desarrollo Sostenible, en lo relacionado con la Gestión Integral de los Residuos de Aparatos Eléctricos y Electrónicos - RAEE Y se dictan otras disposiciones. Febrero 15 de 2018. ',
+      link:
+        'https://www.minambiente.gov.co/wp-content/uploads/2021/08/decreto-284-de-2018.pdf',
     },
     {
       referencia:
@@ -219,6 +223,8 @@ export default {
     {
       referencia:
         'Ley 1672 de 2013. Por la cual se establecen los lineamientos para la adopción de una política pública de gestión integral de residuos de aparatos eléctricos y electrónicos (RAEE), y se dictan otras disposiciones. Julio 10 de 2013.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=53825',
     },
     {
       referencia:
@@ -247,22 +253,26 @@ export default {
     {
       referencia:
         'Resolución 1297 de 2010. [Ministerio de Ambiente y Desarrollo Sostenible]. Por la cual se establecen los Sistemas de Recolección Selectiva y Gestión Ambiental de Residuos de Pilas y/o Acumuladores y se adoptan otras disposiciones. Julio 8 de 2010.',
+      link:
+        'https://www.minambiente.gov.co/wp-content/uploads/2021/10/resolucion-1297-de-2010.pdf',
     },
     {
       referencia:
         'Resolución 1511 de 2010. [Ministerio de Ambiente y Desarrollo Sostenible]. Por la cual se establecen los Sistemas de Recolección Selectiva y Gestión Ambiental de Residuos de Bombillas y se adoptan otras disposiciones. Agosto 5 de 2010.',
+      link:
+        'https://www.minambiente.gov.co/wp-content/uploads/2021/10/Resolucion-1511-de-2010.pdf',
     },
     {
       referencia:
-        'Resolución 1512 de 2015. [Ministerio de Ambiente y Desarrollo Sostenible]. Por la cual se establecen los Sistemas de Recolección Selectiva y Gestión Ambiental de Residuos de Computadores y/o Periféricos y se adoptan otras disposiciones. Agosto 5 de 2015.',
+        'Resolución 1512 de 2010. [Ministerio de Ambiente y Desarrollo Sostenible]. Por la cual se establecen los Sistemas de Recolección Selectiva y Gestión Ambiental de Residuos de 48 Computadores y/o Periféricos y se adoptan otras disposiciones. Agosto 5 de 2010.',
+      link:
+        'https://www.mincit.gov.co/ministerio/normograma-sig/procesos-de-apoyo/gestion-de-recursos-fisicos/resoluciones/resolucion-1512-de-2010.aspx',
     },
     {
       referencia:
         'Resolución 0076 de 2019. [Ministerio de Ambiente y Desarrollo Sostenible]. Por medio del cual se adoptan los términos de referencia para la elaboración del Estudio de Impacto Ambiental. EIA. Enero 16 de 2019.',
-    },
-    {
-      referencia:
-        'Resolución 480 de 2019. [Ministerio de Ambiente y Desarrollo Sostenible]. Por medio del cual se adoptan los términos de referencia para la elaboración del Estudio de Impacto Ambiental. EIA. Enero 16 de 2019.',
+      link:
+        'https://www.redjurista.com/Documents/resolucion_76_de_2019_ministerio_de_ambiente_y_desarrollo_sostenible.aspx#/',
     },
     {
       referencia:
